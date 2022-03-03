@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+main {
+    padding: 5%
+}
+
+.header {
+    text-align: center;
+    background-color: #e3e3e3;
+    padding: 5%;
+    height: 500px;
+}
+
+.header h1 {
+    font-size: 6rem;
+}
+
+.contact {
+    height: 20vh;
+}
+
+form {
+    width: 50%;
+}
+
+form select {
+    margin-top: 10px;
+}
+
+.register-container, .register-home {
+    padding: 2%;
+    width: 70vw;
+}
+
+@media only screen and (max-width: 720px) {
+    .register-container {
+        padding: 2%;
+        width: 80%;
+    }
+
+    table, .availability {
+        display: none;
+    }
+
+}
